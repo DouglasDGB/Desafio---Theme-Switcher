@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+	--dark: #292C35;
+	--light: #F1F1F1;
+	--label: #111;
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body{ 
+  background-color: var(--light);
+}
+
+.temaEscuro {
+  background-color: var(--dark);
+}
+
+button{
+  position: absolute;
+  width: 23.538rem;
+  height: 10.2rem;
+
+  margin-left: 64.6rem;
+  margin-top: 33.9rem;
+
+  border: none;
+  border-radius: 5.9rem;
+
+
+  background-color: var(--label);
+  background-image: url(./assets/sun.svg) ;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 9rem;
+  
+  
+
+}
+
+.buttonClaro {
+  position: absolute;
+  width: 23.538rem;
+  height: 10.2rem;
+
+  margin-left: 64.6rem;
+  margin-top: 33.9rem;
+
+  border: none;
+  border-radius: 5.9rem;
+
+
+  background-color: var(--label);
+  background-image: url(./assets/moon.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 9rem;
+}
+
+button div {
+  background-color: var(--light);
+  width: 8.631rem;
+  height: 8.631rem;
+  border-radius: 50%;
+
+  transition: 0.4s;
+
+}
+
+.buttomball{
+  background-color: var(--light);
+  width: 8.631rem;
+  height: 8.631rem;
+  border-radius: 50%;
+  margin-left: 13.8rem;
+  
+  transition: 0.4s;
+}
